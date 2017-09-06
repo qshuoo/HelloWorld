@@ -15,7 +15,7 @@ public class HelloFactory implements Factory {
 	}
 
 	@Override
-	public Command createCommand(HelloSubject subject) {
+	public Command createCommand(Subject subject) {
 		// TODO Auto-generated method stub
 		return new HelloCommand(subject);
 	}

@@ -4,9 +4,9 @@ public class HelloCommand implements Command{
 	private HelloSubject subject;
 	
 
-	public HelloCommand(HelloSubject subject) {
+	public HelloCommand(Subject subject) {
 		super();
-		this.subject = subject;
+		this.subject = (HelloSubject)subject;
 	}
 
 
